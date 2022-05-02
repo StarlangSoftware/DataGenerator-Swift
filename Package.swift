@@ -12,7 +12,7 @@ let package = Package(
             targets: ["DataGenerator"]),
     ],
     dependencies: [
-        .package(name: "AnnotatedTree", url: "https://github.com/StarlangSoftware/AnnotatedTree-Swift.git", .exact("1.0.4")),
+        .package(name: "AnnotatedTree", url: "https://github.com/StarlangSoftware/AnnotatedTree-Swift.git", .exact("1.0.5")),
         .package(name: "Classification", url: "https://github.com/StarlangSoftware/Classification-Swift.git", .exact("1.0.2")),
     ],
     targets: [
